@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<WeighingProtocol version="1.1" xmlns="http://www.mt.com/XMLSchema/AdvancedWeighing/V1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<User/>
+		<Timestamp>2023-07-13T14:47:50</Timestamp>
+		<Balance>
+			<BalanceType>MS104TS/00</BalanceType>
+			<BalanceId>MS104TS_C316030216</BalanceId>
+			<SerialNumber>C316030216</SerialNumber>
+			<SoftwareVersion>4.22</SoftwareVersion>
+			<FACTStatus>OK</FACTStatus>
+			<LastAdjustment>2023-07-13T14:43:34</LastAdjustment>
+			<ScaleInterval unit="g">0.0001</ScaleInterval>
+			<Readability>10d</Readability>
+			<TransferType>Manual</TransferType>
+			<MinWeigh>
+				<MinWeighMethod/>
+				<MinimumWeight unit=""/>
+			</MinWeigh>
+		</Balance>
+	</Header>
+	<Task ApplicationName="Weighing">
+		<TaskIdentifiers>
+			<TaskIdentifier description=""/>
+			<TaskIdentifier description=""/>
+			<TaskIdentifier description=""/>
+		</TaskIdentifiers>
+		<TargetAndTolerances>
+			<Target unit=""/>
+			<UpperTolerance unit=""/>
+			<LowerTolerance unit=""/>
+		</TargetAndTolerances>
+		<Results>
+			<ResultItem levelStatus="In level">
+				<Weighing>
+					<ResultIdentifier description="Sample ID"/>
+					<AdditionalUnit unit="g" resultType="net">4.393 </AdditionalUnit>
+					<NetWeight unit="mg" minWeighStatus="">4393 </NetWeight>
+					<TareWeight unit="mg">2256 </TareWeight>
+					<GrossWeight unit="mg">6649 </GrossWeight>
+					<Stable>true</Stable>
+					<Pretared>false</Pretared>
+				</Weighing>
+			</ResultItem>
+		</Results>
+	</Task>
+</WeighingProtocol>
+

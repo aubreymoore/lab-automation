@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<AdjustmentProtocol version="1.0" xmlns="http://www.mt.com/XMLSchema/AdvancedWeighing/V1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<User/>
+		<Timestamp>2023-07-13T14:43:34</Timestamp>
+		<Balance>
+			<BalanceType>MS104TS/00</BalanceType>
+			<BalanceId>MS104TS_C316030216</BalanceId>
+			<SerialNumber>C316030216</SerialNumber>
+			<SoftwareVersion>4.22</SoftwareVersion>
+			<ScaleInterval unit="g">0.0001</ScaleInterval>
+		</Balance>
+	</Header>
+	<Task AdjustmentName="Internal adjustment">
+		<AdjustmentType>Internal</AdjustmentType>
+		<AdjustmentStatus>Passed</AdjustmentStatus>
+		<BalanceAdjusted>true</BalanceAdjusted>
+		<Adjustment levelStatus="In level">
+			<Trigger>Manual</Trigger>
+			<At>2023-07-13T14:43:34</At>
+			<Temperature unit="℃">21.3</Temperature>
+			<Correction unit="%">0.0000</Correction>
+		</Adjustment>
+	</Task>
+</AdjustmentProtocol>
+

@@ -1,0 +1,4 @@
+﻿Sample ID             11
+             7.9727 g   
+Sample ID             10
+             4.6646 g   
